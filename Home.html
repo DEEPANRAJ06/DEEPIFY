@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepify</title>
+<style>
+#fullpage{width:100%;height:auto;}
+header{width:100%;height:500px;background-image:url(Piano.webp); background-size:100% 555px;
+background-repeat:no-repeat;}
+#head{font-family:lucida handwriting;color:black;-webkit-text-stroke-width:0.7px;-webkit-text-stroke-color:white;font-size:60px;padding-top:150px;padding-left:80px;}
+#nav1{width:100%;height:51px;line-height:50px;position:sticky;top:0px;z-index:2;background-repeat:no-repeat;background-size:cover;margin:1px 0px;
+background-image:url(Nav1.jpg);}
+#a2,#a3,#a4,#a5,#a6{text-decoration:none;display:inline-block;font-family:calibri;font-weight:bold;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;font-size:19.8px;padding:0px 101.1px 0px 104px;
+border:1px black solid;border-radius:7px;color:black;}
+#a1{background-color:rgb(15,15,15);font-size:19.3px;color:white;-webkit-text-stroke-width:0.1px;-webkit-text-stroke-color:white;font-weight:bold;text-decoration:none;display:inline-block;font-family:calibri;font-weight:bold;-webkit-text-stroke-width:1px;font-size:19.8px;padding:0px 103.5px 0px 104px;
+border:1px black solid;border-radius:7px;}
+#a2:hover{background-color:rgb(15,15,15);font-size:19.3px;color:white;-webkit-text-stroke-width:0.1px;-webkit-text-stroke-color:red;font-weight:bold;}
+#a3:hover{background-color:rgb(15,15,15);font-size:19.3px;color:white;-webkit-text-stroke-width:0.1px;-webkit-text-stroke-color:red;font-weight:bold;}
+#a4:hover{background-color:rgb(15,15,15);font-size:19.3px;color:white;-webkit-text-stroke-width:0.1px;-webkit-text-stroke-color:red;font-weight:bold;}
+#a5:hover{background-color:rgb(15,15,15);font-size:19.3px;color:white;-webkit-text-stroke-width:0.1px;-webkit-text-stroke-color:red;font-weight:bold;}
+#a6:hover{background-color:rgb(15,15,15);font-size:19.3px;color:white;-webkit-text-stroke-width:0.1px;-webkit-text-stroke-color:red;font-weight:bold;}
+marquee{background-color:white;width:100%;font-size:17px;height:30px;padding:7px 0px 0px 0px;}
+#marq{font-family:calibri;border:none;-webkit-text-stroke-color:black;-webkit-text-stroke-width:1px;padding:0px;text-decoration:none;}
+#marq:hover{background-color:#fffbf0;font-size:18px;}
+section{width:100%;height:610px;background-image:url(./Sec1.jpg); background-repeat:no-repeat; background-size:100% 610px;border-top:1.7px black ridge;}
+#img1{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img2{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img3{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img4{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img5{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img6{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img7{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img8{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img9{width:150px;height:150px;padding:25px 14.2px;box-shadow:0px 1px 0px black;border-radius:2px;}
+#img10{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img11{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img12{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img13{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img14{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img15{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img16{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img17{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img18{width:150px;height:150px;padding:25px 14.2px;box-shadow:0px 1px 0px black;border-radius:2px;}
+#img19{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img20{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img21{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img22{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img23{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img24{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img25{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img26{width:150px;height:150px;padding:25px 14.2px;box-shadow:1px 1px 0px black;border-radius:2px;}
+#img27{width:150px;height:150px;padding:25px 14.2px;box-shadow:0px 1px 0px black;border-radius:2px;}
+#img1:hover,#img2:hover,#img3:hover,#img4:hover,#img5:hover,#img6:hover,#img7:hover,#img8:hover,#img9:hover,#img10:hover,#img11:hover,#img12:hover,#img13:hover,#img14:hover,#img15:hover,#img16:hover,#img17:hover,#img18:hover,#img19:hover,#img20:hover,#img21:hover,#img22:hover,#img23:hover,#img24:hover,#img25:hover,#img26:hover,#img27:hover{-webkit-transform:scale(0.98,0.98);border-radius:4px;background-color:rgb(201, 200, 200);}
+#foot{width:99.5%;height:230px;background-color:white;color:black;border:1px black solid;border-top:1px black ridge;border-bottom:3px black ridge;border-right:4px black ridge;border-left:4px black ridge;margin:0px 0px 0px 1px}
+#fbicon{width:33px;height:33px;margin:50px 0px 0px 600px;position:absolute;}
+#insicon{width:45px;height:45px;margin:45px 0px 0px 700px;position:absolute;}
+#twiticon{width:53px;height:41px;margin:48px 0px 0px 800px;position:absolute;}
+#gooicon{width:34px;height:33px;margin:52px 0px 0px 900px;position:absolute;}
+#youicon{width:53px;height:55px;margin:43px 0px 0px 990px;position:absolute;}
+#f1{width:30px;height:30px;margin:120px 0px 0px 500px;position:absolute;text-decoration:none;font-weight:bold;font-size:20px;color:black;}
+#f2{width:42px;height:42px;margin:120px 0px 0px 650px;position:absolute;text-decoration:none;font-weight:bold;font-size:20px;color:black;}
+#f3{width:50px;height:38px;margin:120px 0px 0px 800px;position:absolute;text-decoration:none;font-weight:bold;font-size:20px;color:black;}
+#f4{width:31px;height:30px;margin:120px 0px 0px 950px;position:absolute;text-decoration:none;font-weight:bold;font-size:20px;color:black;}
+#f5{width:48px;height:48px;margin:120px 0px 0px 1100px;position:absolute;text-decoration:none;font-weight:bold;font-size:20px;color:black;}
+h3{color:black;font-family:calibri;margin:180px 0px 0px 660px;position:absolute;}
+#fbicon:hover{width:36px;height:36px;margin:50px 0px 0px 600px;position:absolute;}
+#insicon:hover{width:48px;height:48px;margin:45px 0px 0px 700px;position:absolute;}
+#twiticon:hover{width:56px;height:44px;margin:48px 0px 0px 800px;position:absolute;}
+#gooicon:hover{width:37px;height:36px;margin:52px 0px 0px 900px;position:absolute;}
+#youicon:hover{width:56px;height:58px;margin:43px 0px 0px 990px;position:absolute;}
+#f1:hover{width:30px;height:30px;margin:120px 0px 0px 500px;position:absolute;text-decoration:none;font-weight:bold;font-size:21px;color:rgb(104, 75, 135);-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black}
+#f2:hover{width:42px;height:42px;margin:120px 0px 0px 650px;position:absolute;text-decoration:none;font-weight:bold;font-size:21px;color:rgb(104, 75, 135);-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black}
+#f3:hover{width:50px;height:38px;margin:120px 0px 0px 800px;position:absolute;text-decoration:none;font-weight:bold;font-size:21px;color:rgb(104, 75, 135);-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black}
+#f4:hover{width:31px;height:30px;margin:120px 0px 0px 950px;position:absolute;text-decoration:none;font-weight:bold;font-size:21px;color:rgb(104, 75, 135);-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black}
+#f5:hover{width:48px;height:48px;margin:120px 0px 0px 1100px;position:absolute;text-decoration:none;font-weight:bold;font-size:21px;color:rgb(104, 75, 135);-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black}
+#slo1{font-family:lucida handwriting;font-size:23px;margin-left:185px;margin-top:70px;font-weight:bold;color:rgb(104, 75, 135);}
+#slo2{font-family:lucida handwriting;font-size:23px;margin-left:45px;margin-top:5px;font-weight:bold;color:rgb(104, 75, 135);}
+#slo3{font-family:lucida handwriting;font-size:23px;text-align:right;margin-right:110px;margin-bottom:6px;font-weight:bold;color:rgb(104, 75, 135);}
+#slo4{font-family:lucida handwriting;font-size:23px;text-align:right;margin-right:25px;;font-weight:bold;color:rgb(104, 75, 135);}
+#slo5{margin-right:80px;margin-top:-68px;}
+</style>
+<body>
+<div id="fullpage">
+<header>
+<div id="searchhide">
+<form>
+</div>
+</form>
+<div id="head">
+<h1>Deepify</h1>
+</div>
+</header>
+<nav id="nav1">
+<b><a id="a1" href="">HOME</a></b>
+<b><a id="a2" href="All.html">ALL</a></b>
+<b><a id="a3" href="Songs.html">SONGS</a></b>
+<b><a id="a4" href="Bgm's.html">BGM's</a></b>
+<b><a id="a5" href="Devotional.html">DEVOTIONAL</a></b>
+<b><a id="a6" href="Mashup.html">MASH UP</a></b>
+</nav>
+<marquee direction="left"><b><a href="Newly released.html" id="marq"> &#128165 NEWLY RELEASED SONGS &#128165 </b></a>
+</marquee>
+<section>
+    <a href="GV Prakash.html"><img id="img1" src="G V Prakash.jpeg" alt="GV PRAKASH"></a>
+    <a href="AR Rahman.html"><img id="img2" src="A R Rahman.jpg" alt="AR RAHMAN"></a>
+    <a href="Vijay Antony.html"><img id="img3" src="Vijay Antony.jpeg" alt="VIJAY ANTONY"></a>
+    <a href="Anirudh.html"><img id="img4" src="Anirudh.webp" alt="ANIRUDH"></a>
+    <a href="Hip Hop Adhi.html"><img id="img5" src="Hip Hop Adhi.jpg" alt="HIPHOP ADHI"></a>
+    <a href="Sid Sriram.html"><img id="img6" src="Sid Sriram.jpg" alt="SID SRIRAM"></a>
+    <a href="Harris Jeyaraj.html"><img id="img7" src="Harris Jeyaraj.jpeg" alt="HARRIS JEYARAJ"></a>
+    <a href="SPB.html"><img id="img8" src="S P B.jpg" alt="SPB"></a>
+    <a href="Hariharan.html"><img id="img9" src="Hariharan.jpg" alt="HARIHARAN"><br></a>
+    <a href="D Imman.html"><img id="img10" src="D Imman.webp" alt="D IMMAN"></a>
+    <a href="Deva.html"><img id="img11" src="Deva.webp" alt="DEVA"></a>
+    <a href="Ilayaraja.html"><img id="img12" src="Ilayaraja.jpeg" alt="ILAIYARAJA"></a>
+    <a href="Santhosh Narayanan.html"><img id="img13" src="Santhosh Narayanan.webp" alt="SANTHOSH NARAYANAN"></a>
+    <a href="Yuvan Shankar Raja.html"><img id="img14" src="Yuvan Shankar Raja.jpg" alt="YUVAN SHANKAR RAJA"></a>
+    <a href="K J Yesudas.html"><img id="img15" src="K J Yesudas.jpg" alt="YESUDAS"></a>
+    <a href="S Thaman.html"><img id="img16" src="Thaman.webp" alt="THAMAN"></a>
+    <a href="Mano.html"><img id="img17" src="Mano.webp" alt="MANO"></a>
+    <a href="Shreya Ghoshal.html"><img id="img18" src="Shreya Goshal.jpg" alt="SHREYA GOSHAL"><br></a>
+    <a href="Shankar Mahadevan.html"><img id="img19" src="Shankar Mahadevan.jpeg" alt="SHANKAR MAHADHEVAN"></a>
+    <a href="Chithra.html"><img id="img20" src="Chithra.jpeg" alt="CHITHRA"></a>
+    <a href="Vidyasagar.html"><img id="img21" src="Vidyasagar.jpeg" alt="VIDYASAGAR"></a>
+    <a href="Dhanush.html"><img id="img22" src="Dhanush.webp" alt="DHANUSH"></a>
+    <a href="Ghibran.html"><img id="img23" src="Ghibran.jpg" alt="GHIBRAN"></a>
+    <a href="Pradeep Kumar.html"><img id="img24" src="Pradeep.jpg" alt="PRADEEP"></a>
+    <a href="Kamal Hasan.html"><img id="img25" src="Kamal Hasan.webp" alt="KAMAL HASAN"></a>
+    <a href="Udit Narayan.html"><img id="img26" src="Udit Narayanan.jpg" alt="UDIT NARAYANAN"></a>
+    <a href="Srinivas.html"><img id="img27" src="Srinivas.jpg" alt="SRINIVAS"></a>
+</section>
+<footer id="foot">
+<a href="" target="_blank"><img id="fbicon" src="Fb.png"></a>
+<a href="" target="_blank"><img id="insicon" src="Insta.jpeg"></a>
+<a href="" target="_blank"><img id="twiticon" src="Twit.jpeg"></a>
+<a href="" target="_blank"><img id="gooicon" src="Google.png"></a>
+<a href="" target="_blank"><img id="youicon" src="Yt.jpeg"></a>
+<a id="f1" href="">Home</a>
+<a id="f2" href="">News</a>
+<a id="f3" href="">About</a>
+<a id="f4" href="">Contact</a>
+<a id="f5" href="">Team</a>
+<h2 id="slo3"></h2>
+<h2 id="slo4"></h2>
+<h3><u>Copyright &copy 2024: Designed by DEEPAN@50</u></h3>
+<div id="slo1">&#127925Music</div>
+<div id="slo2">-That speaks your language !</div>
+<div id="slo5">
+<div id="slo3">&#127925Music</div>
+<div id="slo4">-Unleash the Magic !</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
